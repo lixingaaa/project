@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: '微软雅黑';
+}
+
+#container {
+    max-width: 7.2rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content {
+    width: 100%;
+    height: 0.9rem;
+}
+
+.content img {
+    width: 100%;
+    display: block;
+}
+
+.cash {
+    height: 1.75rem;
+    background: url(../images/bg.jpg);
+    background-size: 100% 100%;
+    padding: 0.35rem 0.55rem 0.4rem 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.cash_amount .label {
+    font-size: 0.24rem;
+    color: #fff;
+}
+
+.cash_amount .money {
+    color: #fff;
+}
+
+.cash_amount .money .num {
+    font-size: 0.4rem;
+    font-weight: bold;
+}
+
+.cash_amount .money .company {
+    font-size: 0.2rem;
+}
+
+.cash_btn {
+    width: 1.14rem;
+    height: 0.44rem;
+    border-radius: 0.2rem;
+    line-height: 0.44rem;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 0.24rem;
+}
+
+.estimatedRevenue {
+    padding: 0.3rem 0.4rem;
+    display: flex;
+    height: 0.75rem;
+}
+
+.income {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex: 1;
+    padding-left: 0.4rem;
+}
+
+.income:nth-child(1) {
+    border-right: 1px solid #f2f2f2;
+}
+
+.income .label {
+    font-size: 0.24rem;
+    color: #999999;
+}
+
+.income .num {
+    color: #6c6c6c;
+    font-size: 0.28rem;
+}
+
+.orderDetails {
+    padding: 0.3rem 0.4rem;
+}
+
+.datePicker {
+    width: 100%;
+    height: 0.55rem;
+    margin-top: 1.05rem;
+    display: block;
+}
+
+.detailedList {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.55rem;
+}
+
+.detailedList .detailed {
+    width: 2.8rem;
+    height: 0.8rem;
+    padding-left: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.detailed:nth-child(n+3) {
+    margin-top: 0.6rem;
+}
+
+.detailed .label {
+    font-size: 0.24rem;
+    color: #999999;
+}
+
+.detailed .num {
+    font-size: 0.24rem;
+    line-height: 1;
+}
+
+.order .label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.order .label span {
+    margin-right: 0.15rem;
+}
+
+.order .icon {
+    width: 0.3rem;
+    height: 0.3rem;
+    display: block;
+}
